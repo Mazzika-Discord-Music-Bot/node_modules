@@ -1,31 +1,27 @@
 {
-  "_args": [
-    [
-      "yt-search@2.5.1",
-      "J:\\Discord Bot\\Mazzika"
-    ]
-  ],
-  "_from": "yt-search@2.5.1",
-  "_id": "yt-search@2.5.1",
+  "_from": "yt-search@2.7.3",
+  "_id": "yt-search@2.7.3",
   "_inBundle": false,
-  "_integrity": "sha512-RD2pZwU4ac4Q0Cku1oeas2T3cRliEFzPsMvkrjf5D1JxP4l7sPeJhRhC4vjDdEwBdHr78Ka5NyMpbaNKZ17/WQ==",
+  "_integrity": "sha512-A4IEoGSJ+RhWCYsdOt4cWxi0NZZPY71yGtTH1sxWBIVkiZ8PVMyLAODzF/qnRIdKydviIRGCcQZZhzjB9AWCbQ==",
   "_location": "/yt-search",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "yt-search@2.5.1",
+    "raw": "yt-search@2.7.3",
     "name": "yt-search",
     "escapedName": "yt-search",
-    "rawSpec": "2.5.1",
+    "rawSpec": "2.7.3",
     "saveSpec": null,
-    "fetchSpec": "2.5.1"
+    "fetchSpec": "2.7.3"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/yt-search/-/yt-search-2.5.1.tgz",
-  "_spec": "2.5.1",
+  "_resolved": "https://registry.npmjs.org/yt-search/-/yt-search-2.7.3.tgz",
+  "_shasum": "2fbd0bcf598b24ebe1cd635cd9357b1475f46b54",
+  "_spec": "yt-search@2.7.3",
   "_where": "J:\\Discord Bot\\Mazzika",
   "author": {
     "name": "talmobi",
@@ -40,16 +36,18 @@
     "url": "https://github.com/talmobi/yt-search/issues",
     "email": "talmo.christian@gmail.com"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "async.parallellimit": "~0.5.2",
     "boolstring": "~1.0.2",
     "cheerio": "~0.22.0",
     "dasu": "~0.4.1",
     "human-time": "0.0.2",
-    "jsonpath": "~1.0.2",
+    "jsonpath-plus": "~5.0.2",
     "minimist": "~1.2.5",
     "node-fzf": "~0.5.1"
   },
+  "deprecated": false,
   "description": "search youtube",
   "devDependencies": {
     "@babel/core": "~7.11.4",
@@ -86,5 +84,5 @@
     "test:production": "node test/test.js | faucet",
     "test:util": "node test/test-get-scripts.js"
   },
-  "version": "2.5.1"
+  "version": "2.7.3"
 }
