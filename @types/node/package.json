@@ -1,6 +1,6 @@
 {
     "name": "@types/node",
-    "version": "10.17.52",
+    "version": "10.17.55",
     "description": "TypeScript definitions for Node.js",
     "license": "MIT",
     "contributors": [
@@ -18,11 +18,6 @@
             "name": "Alberto Schiabel",
             "url": "https://github.com/jkomyno",
             "githubUsername": "jkomyno"
-        },
-        {
-            "name": "Alexander T.",
-            "url": "https://github.com/a-tarasyuk",
-            "githubUsername": "a-tarasyuk"
         },
         {
             "name": "Alvis HT Tang",
@@ -155,11 +150,6 @@
             "githubUsername": "kuehlein"
         },
         {
-            "name": "Jordi Oliveras Rovira",
-            "url": "https://github.com/j-oliveras",
-            "githubUsername": "j-oliveras"
-        },
-        {
             "name": "Thanik Bhongbhibhat",
             "url": "https://github.com/bhongy",
             "githubUsername": "bhongy"
@@ -191,6 +181,6 @@
     },
     "scripts": {},
     "dependencies": {},
-    "typesPublisherContentHash": "bda482e031ec2e1bdad4a7e8febb6be7d91f6485825250c61dba24897f1d2fd6",
-    "typeScriptVersion": "3.4"
+    "typesPublisherContentHash": "88d1baf4c3f6cf957a52601c8f35795f90a949034e8b6ba32f5b19639615f2c8",
+    "typeScriptVersion": "3.5"
 }
